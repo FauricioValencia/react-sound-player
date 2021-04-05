@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component GIVEN testProps WHEN the component is mounted THEN should show correctly 1`] = `ShallowWrapper {}`;
