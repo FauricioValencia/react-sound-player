@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Sound Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Implement the same sound player using React. Try to preserve as much as possible the animations and interactions from the original [sound player](https://codepen.io/felipevega/pen/ZqqBxJ).
 
-## Available Scripts
+![Screenshot 2021-04-04 at 3 46 50 AM](https://user-images.githubusercontent.com/30967304/113503638-d0c05d00-94f8-11eb-84cd-1bab5d49ce38.png)
 
-In the project directory, you can run:
+## Starting 🚀
 
-### `yarn start`
+```
+git clone https://github.com/fauriciovalencia
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pre requirements 📋
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+ node > v10.15.3
+```
 
-### `yarn test`
+### Installation 🔧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+yarn
+```
 
-### `yarn build`
+For execute
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the tests ⚙️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For execute unit tests
 
-### `yarn eject`
+```
+yarn test
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Built with 🛠️
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://es.reactjs.org/docs/getting-started.html) - Framework
+- [Yarn](https://yarnpkg.com/getting-started) - Dependency manager
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## List dependicies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `@fortawesome/fontawesome-svg-core`
+- `@fortawesome/free-solid-svg-icons`
+- `@fortawesome/react-fontawesome`
+- `@testing-library/jest-dom`
+- `@testing-library/react`
+- `@testing-library/react-hooks`
+- `@testing-library/user-event`
+- `axios`
+- `enzyme`
+- `lodash`
+- `react`
+- `react-audio-player`
+- `react-dom`
+- `react-scripts`
+- `sweetalert2`
+- `web-vitals`
