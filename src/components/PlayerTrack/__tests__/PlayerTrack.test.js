@@ -1,6 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
+import { GlobalProvider } from 'store/GlobalStore'
 import PlayerTrack from '../PlayerTrack'
 
 const testProps = {
@@ -14,7 +15,11 @@ const testProps = {
 describe('Icon component', () => {
   describe('GIVEN testProps', () => {
     describe('WHEN the component is mounted', () => {
-      const wrapper = shallow(<PlayerTrack {...testProps} />)
+      const wrapper = shallow(
+        <GlobalProvider>
+          <PlayerTrack {...testProps} />
+        </GlobalProvider>
+      )
       it('THEN should show correctly', () => {
         expect(wrapper).toMatchSnapshot()
       })
